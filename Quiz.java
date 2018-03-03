@@ -544,7 +544,7 @@ public class Quiz {
     public Question question9 = new Question(9) {
         @Override
         public String getDescription() {
-            return "已知\"第1题与第6题的答案相同\"与\"第X题与第五题第答案相同\"的真假性项反：\nA.第7题 B.第5题 C.第2题 D.第10题\n";
+            return "已知\"第1题与第6题的答案相同\"与\"第X题与第五题第答案相同\"的真假性项反：\nA.第6题 B.第10题 C.第2题 D.第9题\n";
         }
 
         @Override
@@ -553,16 +553,16 @@ public class Quiz {
             Question questionx;
             switch (ch) {
                 case 'A':
-                    questionx = question7;
+                    questionx = question6;
                     break;
                 case 'B':
-                    questionx = question5;
+                    questionx = question10;
                     break;
                 case 'C':
                     questionx = question2;
                     break;
                 case 'D':
-                    questionx = question10;
+                    questionx = question9;
                     break;
                 default:
                     return false;
@@ -577,17 +577,17 @@ public class Quiz {
                 char ch = getAnswer();
                 Question questionx;
                 switch (ch) {
-                    case 'A':
-                        questionx = question7;
-                        break;
-                    case 'B':
-                        questionx = question5;
-                        break;
-                    case 'C':
-                        questionx = question2;
-                        break;
-                    case 'D':
-                        questionx = question10;
+                case 'A':
+                    questionx = question6;
+                    break;
+                case 'B':
+                    questionx = question10;
+                    break;
+                case 'C':
+                    questionx = question2;
+                    break;
+                case 'D':
+                    questionx = question9;
                         break;
                     default:
                         return null;
