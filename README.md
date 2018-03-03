@@ -1,6 +1,6 @@
 # 2018年刑侦科推理试题
 ## 单项选择题：
-答案请在release里找
+答案请在[release](https://github.com/litaorc/Quiz/releases/tag/0.01)里找
 ### 1.这道题的答案是：
 A.A B.B C.C D.D
 
